@@ -1,0 +1,32 @@
+{
+  "name": "simple-email-app",
+  "version": "1.0.0",
+  "description": "Simple app to handle email requests and send to 1 specific email",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bchehraz/simple-email-app.git"
+  },
+  "keywords": [
+    "email",
+    "express",
+    "node",
+    "nodemon"
+  ],
+  "author": "Babak Chehraz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bchehraz/simple-email-app/issues"
+  },
+  "homepage": "https://github.com/bchehraz/simple-email-app#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemailer": "^6.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  }
+}
