@@ -49,6 +49,6 @@ app.post('/send-email', (req, res) => {
   });
 });
 
-app.listen(port, function(req, res) {
-  console.log('Server is running at port: ', port);
+app.listen(process.env.PORT, function(req, res) {
+  console.log('Server is running at port: ', process.env.PORT);
 });
